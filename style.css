@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body{
+    color: #0f0f0f;
+    font-family: 'Poppins', Arial;
+    background: grey;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    animation: surge 1.5s ease-in-out;
+    overflow: hidden;
+}
+
+.container1{
+    box-shadow: 5px 5px 0px black, -5px -5px 0px black, -5px 10px 0px black, 5px -10px 0px black, -5px -10px 0px rgb(0, 0, 0), 5px 10px 0px rgb(0, 0, 0);
+    border-radius: 35px;
+    position: absolute;
+    background: #F2F2F7;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 700px;
+    height: 100%;
+    max-height: 800px;
+}
+
+.hours{
+    font-weight: 600;
+    padding-top: 13px;
+    font-size: 18px;
+    left: 9%;
+    position: absolute;
+}
+.icons{
+    font-weight: 900;
+    padding-top: 10px;
+    font-size: 23px;
+    left: 73%;
+    position: absolute;
+}
+
+
+.seachbox{
+    margin: 90px 5%;
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+}
+
+.inputsearch{
+    border-radius: 10px;
+    position: absolute;
+    margin: 35% 5%;
+    background: #E3E3E8;
+    width: 90%;
+    font-weight: 300;
+    height: 40px;
+    padding: 10px 37px;
+    border-style: none;
+    font-size: 19px;
+    color: #7F7F7E;
+    outline: none;
+}
+
+.bx-search{
+    position: absolute;
+    margin: 37% 7%;
+    font-size: 25px;
+}
+
+.image{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin: 10px;
+}
+
+.whiteblocks{
+    position: absolute;
+    border-radius: 10px;
+    margin: 50% 5%;
+    width: 90%;
+    height: 90px;
+    background: #ffffff;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.041);
+}
+.name{
+    position: absolute;
+    left: 100px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.subtitle{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.bx-right-arrow-alt{
+    position: absolute;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+    left: 90%;
+    top: 32%;
+}
+#arrow{
+    position: absolute;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+    left: 90%;
+    top: 32%;
+    width: 15px;
+    height: 15px;
+}
+
+#arrow2{
+    position: absolute;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+    margin-left: -45px;
+    top: 32%;
+    width: 15px;
+    height: 15px;
+}
+
+#arrow2{
+    position: absolute;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+    left: 90%;
+    top: 32%;
+    width: 15px;
+    height: 15px;
+}
+
+#two{
+    position: absolute;
+    margin-top: 80%;
+    height: 50px;
+}
+
+.perfilbaixado{
+    position: absolute;
+    margin: 4.5% 5%;
+}
+
+#three{
+    position: absolute;
+    margin-top: 100%;
+    height: 50px;
+    height: 210px;
+}
+
+.icones{
+    padding: 10px;
+    margin-top: -15px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.texticons{
+    position: relative;
+    left: 45px;
+    bottom: 5px;
+    font-weight: 500;
+}
+
+.buttonairplane{
+    position: absolute;
+    background: #E5E6E5;
+    bottom: -2px;
+    left: 70%;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.circle{
+    cursor: pointer;
+    position: relative;
+    right: 3px;
+    bottom: 0.2px;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.151);
+}
+
+.buttondark{
+    position: absolute;
+    background: #E5E6E5;
+    bottom: -2px;
+    left: 70%;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.circle2{
+    cursor: pointer;
+    position: relative;
+    right: 3px;
+    bottom: 0.2px;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.151);
+}
+.bar{
+    margin-top: -12px;
+    position: absolute;
+    margin-left: 12%;
+    width: 88%;
+    height: 1px;
+    background: #E5E6E5;
+}
+
+@keyframes surge {
+    0%{
+        transform: scale(0.2) rotate(-100deg);
+    }
+    20%{
+        transform: scale(1.1) rotate(20deg);
+    }
+    45%{
+        transform: scale(0.95) rotate(-10deg);
+    }
+    70%{
+        transform: scale(1.02) rotate(5deg);
+    }
+    100%{
+        transform: scale(1.0) rotate(0deg);
+    }
+}
+
+@keyframes transitiondark {
+    0%{
+        background: #F2F2F7;
+    }
+    100%{
+        background: black;
+    }
+}
+
+@keyframes transitionlight {
+    0%{
+        background: black;
+    }
+    100%{
+        background: #F2F2F7;
+    }
+}
+
+@keyframes buttonAct {
+    0%{
+        background: #E5E6E5;
+    }
+    50%{
+        background: #E5E6E5;
+    }
+    100%{
+        background: #34CC56;
+    }
+}
+
+@keyframes circleAct {
+    0%{
+        right: 5px;
+    }
+    100%{
+        right: -17px;
+    }
+}
+@keyframes circleDes {
+    0%{
+        right: -17px;
+    }
+    100%{
+        right: 5px;
+    }
+}
+
+@keyframes buttonDes {
+    0%{
+        background: #34CC56;
+    }
+    50%{
+        background: #34CC56;
+    }
+    100%{
+        background: #E5E6E5;
+    }
+}
